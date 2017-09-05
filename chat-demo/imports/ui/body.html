@@ -1,0 +1,17 @@
+<body>
+    {{> loginButtons}}
+    <section class="chatWindow">
+        <div class="chatField">
+            {{#each messages}}
+            {{> message}}
+            {{/each}}
+        </div>
+        <div class="usersField">
+        </div>
+        <div class="inputField">
+            <form class="new-message">
+                <input class="messageField" type="text" name="text" placeholder="Type your message" />
+            </form>
+        </div>
+    </section>
+</body>
