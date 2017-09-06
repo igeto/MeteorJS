@@ -6,6 +6,7 @@ import { Messages } from '../api/messages.js';
 
 import './body.html';
 import './message.js';
+import './user.js';
 
 Template.body.onCreated(function bodyOnCreated() {
     this.state = new ReactiveDict();

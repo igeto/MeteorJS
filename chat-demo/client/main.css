@@ -34,3 +34,8 @@
     border: none;
     padding: 5px;
 }
+
+
+.my-text {
+    text-align: right;
+}
