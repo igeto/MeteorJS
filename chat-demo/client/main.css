@@ -34,7 +34,9 @@
     border: none;
     padding: 5px;
 }
-
+.hidden {
+    visibility: hidden;
+}
 
 .my-text {
     text-align: right;

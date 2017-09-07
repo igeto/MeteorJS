@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c1e7ad-a433-454e-9605-b292d4326e17" name="Default" comment="" />
+    <list default="true" id="32c1e7ad-a433-454e-9605-b292d4326e17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/.finished-upgraders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/.id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/packages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/platforms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/.meteor/versions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/client/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/client/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/client/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/lib/collections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NoteManager/server/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MeteorJS.iml" afterPath="$PROJECT_DIR$/.idea/MeteorJS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/.meteor/packages" afterPath="$PROJECT_DIR$/chat-demo/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/.meteor/versions" afterPath="$PROJECT_DIR$/chat-demo/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/client/main.css" afterPath="$PROJECT_DIR$/chat-demo/client/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/imports/api/messages.js" afterPath="$PROJECT_DIR$/chat-demo/imports/api/messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/imports/ui/body.html" afterPath="$PROJECT_DIR$/chat-demo/imports/ui/body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/imports/ui/body.js" afterPath="$PROJECT_DIR$/chat-demo/imports/ui/body.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/imports/ui/message.js" afterPath="$PROJECT_DIR$/chat-demo/imports/ui/message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/imports/ui/user.html" afterPath="$PROJECT_DIR$/chat-demo/imports/ui/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/imports/ui/user.js" afterPath="$PROJECT_DIR$/chat-demo/imports/ui/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat-demo/server/main.js" afterPath="$PROJECT_DIR$/chat-demo/server/main.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,33 +36,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="body.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="body.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <marker date="1504436903266" expanded="true" signature="7:223" ph="..." />
-                <marker date="1504436903266" expanded="true" signature="274:345" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="371:848" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="385:751" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="482:631" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="775:845" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="873:1392" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="905:1259" ph="{...}" />
-                <marker date="1504436903266" expanded="true" signature="1313:1387" ph="{...}" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="body.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,6 +79,14 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/simple-todos/imports/ui/body.js" />
+        <option value="$PROJECT_DIR$/simple-todos/imports/ui/body.html" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -58,11 +94,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/simple-todos/.meteor/local/.build559989.build/programs/.build677754.server/node_modules" />
-    <handled-path value="$PROJECT_DIR$/simple-todos/.meteor/local/build/programs/server/node_modules" />
-    <handled-path value="$PROJECT_DIR$/simple-todos/.meteor/local/build/programs/server/npm/node_modules" />
-    <handled-path value="$PROJECT_DIR$/simple-todos/.meteor/local/dev_bundle/lib/node_modules" />
-    <handled-path value="$PROJECT_DIR$/simple-todos/.meteor/local/dev_bundle/server-lib/node_modules" />
+    <handled-path value="$PROJECT_DIR$/RecipeBook/node_modules" />
+    <handled-path value="$PROJECT_DIR$/chat-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/simple-todos/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -96,28 +129,21 @@
             <path>
               <item name="MeteorJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeteorJS" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-todos" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MeteorJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeteorJS" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-todos" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeteorJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeteorJS" type="462c0819:PsiDirectoryNode" />
-              <item name="simple-todos" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteManager" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -128,6 +154,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="SearchEverywhereHistoryKey" value="color&#9;ACTION&#9;ChangeColorScheme" />
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="js.meteor.project" value="true" />
+    <property name="js.meteor.library.was.enabled" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,14 +268,17 @@
       <updated>1504523916506</updated>
       <workItem from="1504523921008" duration="1330000" />
       <workItem from="1504525298960" duration="162000" />
+      <workItem from="1504792623556" duration="153000" />
+      <workItem from="1504792859792" duration="1809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1492000" />
+    <option name="totallyTimeSpent" value="3454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -260,8 +292,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17395833" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -293,21 +325,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1504436903266" expanded="true" signature="7:223" ph="..." />
-            <marker date="1504436903266" expanded="true" signature="274:345" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="371:848" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="385:751" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="482:631" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="775:845" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="873:1392" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="905:1259" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="1313:1387" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -325,19 +355,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1504436903266" expanded="true" signature="7:223" ph="..." />
-            <marker date="1504436903266" expanded="true" signature="274:345" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="371:848" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="385:751" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="482:631" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="775:845" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="873:1392" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="905:1259" ph="{...}" />
-            <marker date="1504436903266" expanded="true" signature="1313:1387" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoteManager/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-todos/imports/ui/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

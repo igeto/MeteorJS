@@ -1,3 +1,5 @@
 <template name="user">
-    <p>{{username}}</p>
+    {{#each usersOnline}}
+    <p>{{user.usernames.[0].username}}</p>
+    {{/each}}
 </template>

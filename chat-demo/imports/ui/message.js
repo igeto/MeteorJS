@@ -10,3 +10,4 @@ Template.body.helpers({
         return Messages.find({});
     }
 });
+

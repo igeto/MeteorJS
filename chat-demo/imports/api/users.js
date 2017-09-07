@@ -1,3 +1,2 @@
 import { Meteor } from 'meteor/meteor';
-import '../imports/api/messages.js'
-
+import { Mongo } from 'meteor/mongo';

@@ -15,6 +15,7 @@ if (Meteor.isServer) {
 Meteor.methods({
     'messages.insert'(text) {
         check(text, String);
+        
 
         if(text !== '')
             Messages.insert({
