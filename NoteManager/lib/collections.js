@@ -4,6 +4,12 @@ import { check } from 'meteor/check';
 
 export const Notes = new Mongo.Collection('notes');
 
+if(Meteor.isServer){
+    Meteor.publish('notes', function notesPublication(){
+        return Notes.find({owner: Meteor.userId()})
+    });
+}
+
 Meteor.methods({
     'notes.insert'(text) {
         check(text, String);

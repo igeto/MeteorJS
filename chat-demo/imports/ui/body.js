@@ -1,9 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 import { ReactiveDict } from 'meteor/reactive-dict';
-import { check } from 'meteor/check';
-
-import { Messages } from '../api/messages.js';
 
 import './body.html';
 import './message.js';

@@ -10,6 +10,10 @@ Accounts.ui.config({
   passwordSignupFields: 'USERNAME_ONLY'
 });
 
+Template.body.onCreated(function bodyOnCreated() {
+    Meteor.subscribe('notes');
+});
+
 Template.body.helpers({
   //create array of notes
   // notes: [

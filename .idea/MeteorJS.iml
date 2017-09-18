@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/NoteManager/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/RecipeBook/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/chat-demo/.meteor/local" />
       <excludeFolder url="file://$MODULE_DIR$/simple-todos/.meteor/local" />
