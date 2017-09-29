@@ -2,7 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
 
-export const Tasks = new Mongo.Collection('tasks');
+const Tasks = new Mongo.Collection('tasks');
 
 if (Meteor.isServer) {
     //This code only runs on the server
@@ -26,6 +26,7 @@ Meteor.methods({
             throw new Meteor.Error('not-authorized');
         }
 
+        // Make sure input field is not empty before inserting task in db
         if (text !== "")
             Tasks.insert({
                 text,
