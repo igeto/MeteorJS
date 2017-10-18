@@ -3,17 +3,29 @@ import { Players } from '../imports/api/players';
 
 
 Meteor.startup(() => {
-  // Players.insert(
-  //   {
-  //     name: 'Igeto',
-  //     score: 22
-  //   }
-  // );
-  // console.log(Players.find().fetch());
+  class Person {
+    constructor(name = 'Goce od rabota', age = 0) {
+      this.name = name,
+      this.age = age
+    }
+    getGreeting() {
+      return `Hi, I'm ${this.name}`;
+    }
+    getPersonDescription() {
+      return `${this.name} is ${this.age} year(s) old.`;
+    }
+  }
+  
+  class Programmer extends Person {
+    constructor(name, age, preferredLanguage = 'assembly') {
+      super(name, age);
+      this.preferredLanguage = preferredLanguage
+    }
+    getGreeting() {
+      return `Hi I'm ${this.name} and I am ${this.preferredLanguage} developer.`;
+    }
+  }
 
-  let numbers = [9, 99, 4, 56];
-
-  let newNumbers = numbers.map(n => ++n);
-
-  console.log(newNumbers);
+  let me = new Programmer('Igor', 29, 'JavaScript');
+  console.log(me.getGreeting());
 });
