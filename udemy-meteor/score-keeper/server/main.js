@@ -3,19 +3,6 @@ import { Players } from '../imports/api/players';
 
 
 Meteor.startup(() => {
-  
-  let yearBuilt = 1995;
-  let newHouse = {
-    bedrooms: 3,
-    flooring: 'Carpet'
-  }
-  let house = {
-    bedrooms: 2,
-    bathrooms: 1.5,
-    ...newHouse,
-    yearBuilt
-  }
-  console.log(house)
   // class Person {
   //   constructor(name = 'Goce od rabota', age = 0) {
   //     this.name = name,

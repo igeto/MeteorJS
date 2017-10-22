@@ -15,3 +15,18 @@
 .item__message--empty {
     color: #999;
 }
+
+.item--position-1 {
+    background: $green;
+    border-color: $green-border;
+}
+
+.item--position-2 {
+    background: $yellow;
+    border-color: $yellow-border;
+}
+
+.item--position-3 {
+    background: $red;
+    border-color: $red-border;
+}
