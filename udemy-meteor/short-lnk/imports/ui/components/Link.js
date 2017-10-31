@@ -1,9 +1,11 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
 import { Accounts } from 'meteor/accounts-base';
+import { Meteor } from "meteor/meteor";
+import { ReactiveVar } from "meteor/reactive-var";
 
 import { Links } from "../../api";
-import {LinksList} from './LinksList';
+import { LinksList } from './LinksList';
 
 export class Link extends React.Component {
     onLogout() {
@@ -16,7 +18,7 @@ export class Link extends React.Component {
         const url = this.refs.url.value.trim();
 
         if (url) {
-            Links.insert({ url });
+            Meteor.call('links.insert', url);
             this.refs.url.value = '';
         }
     }
